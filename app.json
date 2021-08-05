@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "JDC_Mobile_Application",
+    "slug": "JDC_Mobile_Application",
+    "version": "2.1.0",
+    "orientation": "portrait",
+    "icon": "./App/assets/icon.png",
+    "splash": {
+      "image": "./App/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.JDCManagement",
+      "buildNumber": "2.1.0"
+    },
+    "android": {
+		"package": "com.JDCManagement",
+		"versionCode": 3,
+		"adaptiveIcon": {
+			"foregroundImage": "./App/assets/icon.png",
+			"backgroundColor": "#FFFFFF"
+		}
+	},
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
